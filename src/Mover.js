@@ -12,6 +12,10 @@ const Container = styled.div`
 
 const Movable = styled.div`
   transform-style: preserve-3d;
+
+  * {
+    transform-style: preserve-3d;
+  }
 `;
 
 export function Mover({
